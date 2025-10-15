@@ -1,0 +1,20 @@
+DATASETS:
+  NAMES: 'bear'
+MODEL:
+  TYPE: swin
+  NAME: swin_base_patch4_window7_224_22k
+  DROP_PATH_RATE: 0.2
+  POSE_WEIGHT: './checkpoints/pose/hrnet_w48_balanced_n13.pth'
+  AGG_POSE_FEATURE: True
+  SWIN:
+    EMBED_DIM: 512
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 7
+SOLVER:
+  MAX_EPOCHS: 90
+  WARMUP_EPOCHS: 5
+  WEIGHT_DECAY: 0.05
+  BASE_LR: 1.25e-4 # 4096 batch-size
+  WARMUP_LR: 1.25e-7
+  MIN_LR: 1.25e-6

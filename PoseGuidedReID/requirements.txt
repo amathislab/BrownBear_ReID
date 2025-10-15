@@ -1,0 +1,7 @@
+torch
+torchvision
+timm
+yacs
+opencv-python
+pytorch_metric_learning
+albumentations
