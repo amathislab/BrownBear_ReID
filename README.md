@@ -7,16 +7,6 @@ Identifying individuals within a species is a cornerstone of ecological and biol
 
 ## General informations
 
-Beth Rosenberg,1, 3** Mu Zhou,2,3 Nathan Wolf1, Mackenzie Mathis2, Bradley P. Harris1, 
-and Alexander Mathis2,4* 
-1Fisheries, Aquatic Science, and Technology Laboratory, Alaska Pacific University, Anchorage, Alaska, USA
-2Brain Mind Institute and Neuro-X Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Chemin 
-des Mines 9, Geneve, Switzerland
-3These authors contributed equally
-4Lead contact
-*Correspondence: alexander.mathis@epfl.ch 
-**Correspondence: brosenberg@alaskapacific.edu
-
 * **Authors**: Beth Rosenberg<sup>1,3**</sup>, Mu Zhou<sup>2,3</sup>, Nathan Wolf<sup>1</sup>, Mackenzie W. Mathis<sup>2</sup>, Bradley P. Harris<sup>1</sup>, Alexander Mathis<sup>2,4*</sup> 
 * **Affiliation**: <sup>1</sup> Fisheries, Aquatic Science, and Technology Laboratory, Alaska Pacific University, USA, <sup>2</sup> Brain Mind Institute and Neuro-X Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland, <sup>3</sup>  These authors contributed equally, <sup>4</sup> Lead contact, <sup>*</sup> Correspondence: alexander.mathis@epfl.ch, <sup>**</sup> Correspondence: brosenberg@alaskapacific.edu
 
