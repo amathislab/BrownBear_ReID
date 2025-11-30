@@ -2,7 +2,7 @@
 
 Identifying individuals within a species is a cornerstone of ecological and biological research, holding the key to understanding behavior, population dynamics, and conservation needs. However, conventional identification methods such as genetic sampling and physical tags come with significant trade-offs, including invasiveness, high costs, and limited scalability. Despite remarkable advances in computer vision that have transformed the identification of patterned species, reliably distinguishing individuals in unmarked species remains an open challenge. Here, we curate a novel dataset of visually identified individual Alaskan coastal brown bears (Ursus arctos). This 72K image dataset contains high-resolution images of 109 known individuals from multiple seasons and varied conditions (e.g., fur shed, substantial weight gain). Identification of these bears is notoriously difficult, yet our new pose-aware metric-learning-based AI model reveals hidden biometric patterns that enable individual re-identification (ReID) at a level practicable for research and conservation efforts. Our findings indicate that it is possible to reidentify unmarked individuals across years and to detect unknown individuals in a 'real-world' open dataset. We anticipate that this new AI-based approach to non-invasively ReID animals can serve as the basis for new methodologies in ecological and biological inquiry for other unmarked species.
 
-> ⚠️ Data can be found at [https://zenodo.org/records/xxx](https://zenodo.org/records/xxx)
+> ⚠️ Data can be found at [https://zenodo.org/records/17428002](https://zenodo.org/records/17428002)
 
 
 ## General informations
