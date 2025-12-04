@@ -1,14 +1,20 @@
 # The official code for Grizzly Bear ReID Project.
 
-Identifying individuals within a species is a cornerstone of ecological and biological research, holding the key to understanding behavior, population dynamics, and conservation needs. However, conventional identification methods such as genetic sampling and physical tags come with significant trade-offs, including invasiveness, high costs, and limited scalability. Despite remarkable advances in computer vision that have transformed the identification of patterned species, reliably distinguishing individuals in unmarked species remains an open challenge. Here, we curate a novel dataset of visually identified individual Alaskan coastal brown bears (Ursus arctos). This 72K image dataset contains high-resolution images of 109 known individuals from multiple seasons and varied conditions (e.g., fur shed, substantial weight gain). Identification of these bears is notoriously difficult, yet our new pose-aware metric-learning-based AI model reveals hidden biometric patterns that enable individual re-identification (ReID) at a level practicable for research and conservation efforts. Our findings indicate that it is possible to reidentify unmarked individuals across years and to detect unknown individuals in a 'real-world' open dataset. We anticipate that this new AI-based approach to non-invasively ReID animals can serve as the basis for new methodologies in ecological and biological inquiry for other unmarked species.
+Identifying individuals within a species is a cornerstone of ecological and biological research, holding the key to understanding behavior, population dynamics, and conservation needs. However, conventional identification methods such as genetic sampling and physical tags come with significant trade-offs, including invasiveness, high costs, and limited scalability. Despite remarkable advances in computer vision that have transformed the identification of patterned species, reliably distinguishing individuals in unmarked species remains an open challenge. Here, we curate a novel dataset of visually identified individual Alaskan coastal brown bears (Ursus arctos). This 72K image dataset contains high-resolution images of 109 known individuals from multiple seasons and in varied conditions (e.g., fur shed, substantial weight gain). Identification of these bears is notoriously difficult, yet our new pose-aware metric-learning-based AI model is able to leverage biometric information that enables individual re-identification (ReID) with promising accuracy for future research and conservation efforts. Our findings indicate that it is possible to reidentify individual brown bears across years and to detect unknown individuals in a 'real-world' open dataset. PoseSwin presents a promising approach to the challenge of non-invasive ReID of other unmarked species, as well, and points toward an expanded range of possible questions in wildlife and ecological research.
 
-> ⚠️ Data can be found at [https://zenodo.org/records/17428002](https://zenodo.org/records/17428002)
+> ⚠️ Data can be found on [Zenodo](https://zenodo.org/records/17822054)
 
+## General information
 
-## General informations
+* **Authors**: Beth Rosenberg, Mu Zhou, Nathan Wolf, Mackenzie W. Mathis, Bradley P. Harris, Alexander Mathis
 
-* **Authors**: Beth Rosenberg<sup>1,3**</sup>, Mu Zhou<sup>2,3</sup>, Nathan Wolf<sup>1</sup>, Mackenzie W. Mathis<sup>2</sup>, Bradley P. Harris<sup>1</sup>, Alexander Mathis<sup>2,4*</sup> 
-* **Affiliation**: <sup>1</sup> Fisheries, Aquatic Science, and Technology Laboratory, Alaska Pacific University, USA, <sup>2</sup> Brain Mind Institute and Neuro-X Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland, <sup>3</sup>  These authors contributed equally, <sup>4</sup> Lead contact, <sup>*</sup> Correspondence: alexander.mathis@epfl.ch, <sup>**</sup> Correspondence: brosenberg@alaskapacific.edu
+* **Affiliations**:
+Fisheries, Aquatic Science, and Technology Laboratory, Alaska Pacific University, USA (B.R., N.W., B.P.H.)
+Brain Mind Institute and Neuro-X Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Switzerland (M.Z., M.W.M., A.M.)
+
+B.R. and M.Z. contributed equally.
+Correspondence: alexander.mathis@epfl.ch and brosenberg@alaskapacific.edu
+
 
 * **Date of collection**: 2017-2022
 
@@ -17,7 +23,7 @@ Identifying individuals within a species is a cornerstone of ecological and biol
 * **License**: This dataset is released under the non-commercial [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode) license. 
 * **Citation**: Please consider citing the associated publication when using our data. 
 * **Repository URL**: [https://github.com/amathislab/BrownBear_ReID](https://github.com/amathislab/BrownBear_ReID)
-* **Dataset version**: v1
+* **Dataset version**: v2
 
 ## Data and files overview
 * **Data preparation**: unzip `Public_release.zip` 
@@ -169,9 +175,7 @@ bash run_swin_pose.sh $year $gpu_id
 
 
 ## Acknowledgements
-We thank Steven A. Rosenberg and members of the Mathis group for feedback on earlier versions of this manuscript. We thank Maxime Vidal for preliminary data processing and analysis; Julia Ditto and Felipe Restrepo for help with figures; Larry Aumiller, Kelly Debure and Teresa Fish for preliminary study design; MB, LB, JH for citizen science images. BR, NW and BPH are grateful for Alaska Education Tax Credit funding donated by the At-Sea Processors Association. We are grateful to EPFL’s School of Life Sciences PTECH fund for providing funding (A.M.).
 
-## Change log (DD.MM.YYYY)
-[15.10.2025]: First data & code release ! 
+We thank Steven A. Rosenberg and members of the Mathis group for feedback on earlier versions of this manuscript. We thank Maxime Vidal for preliminary data processing and analysis; Julia Ditto and Felipe Restrepo for help with figures; Larry Aumiller, Kelly Debure and Teresa Fish for preliminary study design; MB, LB, JH for citizen science images. BR, NW and BPH are grateful for Alaska Education Tax Credit funding donated by the At-Sea Processors Association. We are grateful to EPFL’s School of Life Sciences PTECH fund for providing funding (A.M.).
 
 
