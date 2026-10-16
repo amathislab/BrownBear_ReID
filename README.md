@@ -176,6 +176,6 @@ bash run_swin_pose.sh $year $gpu_id
 
 ## Acknowledgements
 
-We thank Steven A. Rosenberg and members of the Mathis group for feedback on earlier versions of this manuscript. We thank Maxime Vidal for preliminary data processing and analysis; Julia Ditto and Felipe Restrepo for help with figures; Larry Aumiller, Kelly Debure and Teresa Fish for preliminary study design; MB, LB, JH for citizen science images. BR, NW and BPH are grateful for Alaska Education Tax Credit funding donated by the At-Sea Processors Association. We are grateful to EPFL’s School of Life Sciences PTECH fund for providing funding (A.M.).
+A portion of the images from McNeil State Game Sanctuary and Refuge are copyright of the Alaska Department of Fish and Game and are used with permission. The department did not participate in or review the study design, analyses, or results, and the conclusions are those of the authors alone. The authors thank Steven A. Rosenberg and members of the Mathis group for feedback on earlier versions of this manuscript. We thank Maxime Vidal for preliminary data processing and analysis; Julia Ditto and Felipe Restrepo for help with figures; Larry Aumiller, Kelly Debure and Teresa Fish for preliminary study design; MB, LB, JH for citizen science images. BR, NW and BPH are grateful for Alaska Education Tax Credit funding donated by the At-Sea Processors Association. We are grateful to EPFL’s School of Life Sciences PTECH fund for providing funding (A.M.).
 
 
